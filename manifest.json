@@ -3,19 +3,19 @@
     "name": "Online Discoveries",
     "icons": [
         {
-            "src":"/Assets/ODIconSeventyTwo.png",
+            "src":"Assets/ODIconSeventyTwo.png",
             "type": "image/png",
             "sizes": "72x72"
         },
         {
-            "src":"/Assets/ODIconOneHundredNinetyTwo.png",
+            "src":"Assets/ODIconOneHundredNinetyTwo.png",
             "type": "image/png",
             "sizes": "192x192"
         }
     ],
-    "start_url": "/index.html",
+    "start_url": "index.html",
     "background_color": "#000000",
     "display": "standalone",
     "theme_color": "#901600",
-    "scope": "/index.html"
+    "scope": "index.html"
 }
