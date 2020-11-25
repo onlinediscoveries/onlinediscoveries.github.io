@@ -8,9 +8,9 @@
             "sizes": "72x72"
         },
         {
-            "src":"/Assets/ODIconFiveHundredTwelve.png",
+            "src":"/Assets/ODIconOneHundredNinetyTwo.png",
             "type": "image/png",
-            "sizes": "512x512"
+            "sizes": "192x192"
         }
     ],
     "start_url": "/index.html",
