@@ -7,12 +7,14 @@
       {
         "src": "/Assets/ODIconOneHundredNinetyTwo.png",
         "sizes": "192x192",
-        "type": "image/png"
+        "type": "image/png",
+        "purpose": "maskable"
       },
       {
         "src": "/Assets/ODIconFiveHundredTwelve.png",
         "sizes": "512x512",
-        "type": "image/png"
+        "type": "image/png",
+        "purpose": "maskable"
       }
     ],
     "theme_color": "#901600",
