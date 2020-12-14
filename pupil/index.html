@@ -4,12 +4,31 @@
 <head>
 <link rel='icon' href='..\Assets\favicon.ico' type='image/x-icon'/ >
 <h1 style="font-family:mv-boli"><font color="#901600">
-Welcome, pupils!
+Welcome,
+<script>
+if (document.cookie=="") {
+    var usernamevar = prompt("Please enter a username to proceed.")
+    document.cookie=(usernamevar)
+    location.reload(true)
+}
+document.write(document.cookie)
+document.write("!")
+</script>
 </font></h1>
 </div>
 </head>
 <body>
-<p><font color="#1a4c6b">The geniuses have all got their smart knowledge from this very website. This very website...... Nice use of elipsis here sir!</font></p>
+<p><font color="#1a4c6b">The geniuses have all got their smart knowledge from this very website. This very website......</font></p>
+<button type="button" onclick="newUsername()">Get a new username</button><br>
 <a href="../menu.html"><font color="#1a4c6b">Back to Menu</font></a>
+<script>
+function newUsername() {
+var usernamevar = prompt("Please enter your new username.")
+document.cookie=(usernamevar)
+location.reload(true)
+}
+</script>
+</body>
+</html>
 </body>
 </html>
