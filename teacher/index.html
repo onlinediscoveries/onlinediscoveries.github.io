@@ -8,10 +8,10 @@ Welcome,
 <script>
 if (document.cookie=="") {
     var usernamevar = prompt("Please enter a username to proceed.")
-    document.cookie=(usernamevar)
+    document.cookie=("username="+usernamevar+"")
     location.reload(true)
 }
-document.write(document.cookie)
+document.write(getCookie("username"))
 document.write("!")
 </script>
 </font></h1>
@@ -25,7 +25,7 @@ have to come to this very website to get there genius stuff done. Welcome.</font
 <script>
 function newUsername() {
 var usernamevar = prompt("Please enter your new username.")
-document.cookie=(usernamevar)
+document.cookie=("username="+usernamevar+"")
 location.reload(true)
 }
 </script>
