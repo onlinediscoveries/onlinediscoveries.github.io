@@ -6,7 +6,7 @@
 <h1><font color="#901600">
 Welcome, 
 <script>
-document.write(get_cookie("username"))
+document.write(document.cookie)
 document.write("!")
 </script>
 </font></h1>
@@ -20,7 +20,7 @@ have to come to this very website to get there genius stuff done. Welcome.</font
 <script>
 function newUsername() {
 var usernamevar = prompt("Please enter your new username.")
-document.cookie="username="+usernamevar+", expires=365"
+document.cookie=(usernamevar)
 }
 </script>
 </body>
