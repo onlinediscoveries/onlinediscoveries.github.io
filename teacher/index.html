@@ -6,12 +6,28 @@
 <h1><font color="#901600">
 Welcome, 
 <script>
+function getCookie(username) {
+  var name = username + "=";
+  var decodedCookie = decodeURIComponent(document.cookie);
+  var ca = decodedCookie.split(';');
+  for(var i = 0; i <ca.length; i++) {
+    var c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return "";
+}
 if (document.cookie=="") {
     var usernamevar = prompt("Please enter a username to proceed.")
     document.cookie=("username="+usernamevar+"")
     location.reload(true)
 }
-document.write(getCookie("username"))
+var localusername=getCookie("username")
+document.write(localusername)
 document.write("!")
 </script>
 </font></h1>
