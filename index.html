@@ -5,11 +5,21 @@
     <meta name="theme-color" content="#901600">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="manifest.json">
+    <script>
+      function registerServiceWorker() {
+      // register sw script in supporting browsers
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('sw.js', { scope: '/' }).then(() => {
+          console.log('Service Worker registered successfully.');
+        }).catch(error => {
+          console.log('Service Worker registration failed:', error);
+        });
+      }
+    }
+    </script>
     <link rel="apple-touch-icon" href="/Assets/AppleTouchIcon.png"/>
-    <script src="pwa.js"></script>
-    <script src="pwapopup.js"></script>
     <meta name="google-site-verification" content="nMlh2T2SzSj5OEB5gaJlF2027HwcFrFU8MRNDigEAbA" />
-    <link rel='icon' href='Assets\favicon.ico' type='image/x-icon'>
+    <link rel='icon' href='favicon.ico' type='image/x-icon'>
 </head>
 <body>
     <h1><font color="#901600"><font face="gill sans mt">Welcome to Online Discoveries!</font></h1>
