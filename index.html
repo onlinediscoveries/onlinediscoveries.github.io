@@ -6,15 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="manifest.json">
     <script>
-      function registerServiceWorker() {
-      // register sw script in supporting browsers
-      if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('sw.js', { scope: '/' }).then(() => {
-          console.log('Service Worker registered successfully.');
-        }).catch(error => {
-          console.log('Service Worker registration failed:', error);
-        });
-      }
+    // Check that service workers are supported
+    if ('serviceWorker' in navigator) {
+      // Use the window load event to keep the page load performant
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/service-worker.js');
+      });
     }
     </script>
     <link rel="apple-touch-icon" href="/Assets/AppleTouchIcon.png"/>
