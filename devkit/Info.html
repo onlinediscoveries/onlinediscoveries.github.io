@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<style>
+    body {
+        background-color: #901600;
+        margin-bottom: 0;
+    }
+    h1 {
+        background-color: #1a4c6b;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    p {
+        background-color: #1a4c6b;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    button {
+        background-color: #1a4c6b;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    a {
+        background-color: #1a4c6b;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    header {
+        background-color: #1a4c6b;
+        margin-top: 0;
+        margin-bottom: 0;
+        height: 100%;
+        width: 100%;
+    }
+    img {
+        background-color: #1a4c6b;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    head {
+        background-color: #1a4c6b;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    canvas {
+        background-color: #1a4c6b;
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 100%;
+        height: 100%;
+    }
+</style>
+<head>
+    <header></header>
+    <meta name="description" content="Online Discoveries, the best tool for online learning.">
+    <meta name="theme-color" content="#901600">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="manifest.json">
+    <script>
+    // Check that service workers are supported
+    if ('serviceWorker' in navigator) {
+      // Use the window load event to keep the page load performant
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/service-worker.js');
+      });
+    }
+    </script>
+    <link rel="apple-touch-icon" href="/Assets/AppleTouchIcon.png"/>
+    <meta name="google-site-verification" content="nMlh2T2SzSj5OEB5gaJlF2027HwcFrFU8MRNDigEAbA" />
+    <link rel='icon' href='favicon.ico' type='image/x-icon'>
+</head>
+<body>
+    <header><h1 align="center"><font color="#ffffff"><font face="gill sans mt">Title text</font></h1>
+    <title>Tab Title</title>
+    <p align="center"><font color="#ffffff"><font face="gill sans mt">Body text</font></p>
+    <center><button width="1520%"><a href="link.html"><font color="#ffffff"><font face="gill sans mt">Button text</font></b></a></button></center>
+    <canvas id="myCanvas"></canvas></header>
+</body>
+</html>
