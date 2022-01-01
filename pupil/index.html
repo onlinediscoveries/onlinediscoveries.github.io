@@ -6,35 +6,35 @@
 <h1 style="font-family:mv-boli"><font color="#901600">
 Welcome,
 <script>
-function getCookie(username) {
-  var name = username + "=";
-  var decodedCookie = decodeURIComponent(document.cookie);
-  var ca = decodedCookie.split(';');
-  for(var i = 0; i <ca.length; i++) {
-    var c = ca[i];
-    while (c.charAt(0) == ' ') {
-      c = c.substring(1);
+  function getCookie(username) {
+    var name = username + "=";
+    var decodedCookie = decodeURIComponent(document.cookie);
+    var ca = decodedCookie.split(';');
+    for(var i = 0; i <ca.length; i++) {
+      var c = ca[i];
+      while (c.charAt(0) == ' ') {
+        c = c.substring(1);
+      }
+      if (c.indexOf(name) == 0) {
+        return c.substring(name.length, c.length);
+      }
     }
-    if (c.indexOf(name) == 0) {
-      return c.substring(name.length, c.length);
-    }
+    return "";
   }
-  return "";
-}
-if (document.cookie=="") {
-    var usernamevar = prompt("Please enter a username to proceed.")
-    document.cookie=("username="+usernamevar+"")
-    location.reload(true)
-}
-var localusername=getCookie("username")
-document.write(localusername)
-document.write("!")
+  if (document.cookie=="") {
+      var usernamevar = prompt("Please enter a username to proceed.")
+      document.cookie=("username="+usernamevar+"")
+      location.reload(true)
+  }
+  var localusername=getCookie("username")
+  document.write(localusername)
+  document.write("!")
 </script>
 </font></h1>
 </div>
 </head>
 <body>
-<p><font color="#1a4c6b">The geniuses have all got their smart knowledge from this very website. This very website......</font></p>
+<p><font color="#1a4c6b">The geniuses have all obtained their smart knowledge from this very website. This very website...</font></p>
 <button type="button" onclick="newUsername()">Get a new username</button><br>
 <a href="../menu.html"><font color="#1a4c6b">Back to Menu</font></a>
 <script>
