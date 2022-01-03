@@ -1,12 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-gb">
+<meta name="theme-color" content="#901600">
+<meta name="apple-mobile-web-app-status-bar-style" content="#901600">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Online Discoveries, the best tool for online learning.">
+<link rel="apple-touch-icon" sizes="57x57" href="/Assets/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/Assets/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/Assets/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/Assets/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/Assets/Assets/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/Assets/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/Assets/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/Assets/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/Assets/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/Assets/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/Assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/Assets/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/Assets/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<link rel="stylesheet" href="https://onlinediscoveries.net/main.css">
+<script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register("/sw.js")
+        console.log("Service worker registered")
+    }
+</script>
 <head>
-<h1><font color="#901600">Pupil's Menu</h1>
+    <header>
+    <h1 class="title">Pupil's Menu</h1>
+    </header>
 </head>
 <body>
-    <p><font color="#1a4c6b">I'm in:</p></font>
-    <a href="keystage1\index.html"><font color="#1a4c6b">Key Stage 1</font></a><br>
-    <a href="keystage2\index.html"><font color="#1a4c6b">Key Stage 2</font></a><br>
-    <a href="index.html"><font color="#1a4c6b">Back to Pupil Homepage</font></a>
+    <header>
+    <p class="maintext">I'm in:</p>
+    <button><a href="keystage1\index.html">Key Stage 1</a></button><br>
+    <button><a href="keystage2\index.html">Key Stage 2</a></button><br>
+    <button><a href="index.html">>Back to Pupil Homepage</a></button>
+    </header>
     </body>
 </html>

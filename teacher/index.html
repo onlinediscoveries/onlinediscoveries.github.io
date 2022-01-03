@@ -1,9 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-gb">
+<meta name="theme-color" content="#901600">
+<meta name="apple-mobile-web-app-status-bar-style" content="#901600">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Online Discoveries, the best tool for online learning.">
+<link rel="apple-touch-icon" sizes="57x57" href="/Assets/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/Assets/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/Assets/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/Assets/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/Assets/Assets/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/Assets/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/Assets/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/Assets/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/Assets/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/Assets/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/Assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/Assets/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/Assets/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<link rel="stylesheet" href="https://onlinediscoveries.net/main.css">
+<script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register("/sw.js")
+        console.log("Service worker registered")
+    }
+</script>
 <title>Teacher - Online Discoveries</title>
 <head>
-<link rel='icon' href='..\Assets\favicon.ico' type='image/x-icon'/ >
-<h1><font color="#901600">
+<link rel='icon' href='..\Assets\favicon.ico' type='image/x-icon'>
+<header>
+<h1 class="title">
 Welcome, 
 <script>
 function getCookie(username) {
@@ -30,14 +58,16 @@ var localusername=getCookie("username")
 document.write(localusername)
 document.write("!")
 </script>
-</font></h1>
+</h1>
+</header>
 </head>
 <body>
-<p><font color="#1a4c6b">This is where all the magic happens. All the teaching geniuses <br>
-have to come to this very website to get their work of intelligence done. Welcome.</font></p><br>
-<button type="button" onclick="newUsername()">Get a new username</button><br>
-<a href="menu.html"><font color="#1a4c6b">Teacher's Menu<br></font></a><br>
-<a href="../menu.html"><font color="#1a4c6b">Back to Menu</font></a>
+<header>
+<p class="maintext">This is where all the magic happens. All the teaching geniuses <br>
+have to come to this very website to get their work of intelligence done. Welcome.</p><br>
+<button type="button" onclick="newUsername()"><font color="#ffffff" face="GillSansMT">Get a new username</font></button><br>
+<button><a href="menu.html">Teacher's Menu</a></button><br>
+<button><a href="../menu.html">Back to Menu</a></button>
 <script>
 function newUsername() {
 var usernamevar = prompt("Please enter your new username.")
@@ -45,5 +75,6 @@ document.cookie=("username="+usernamevar+"")
 location.reload(true)
 }
 </script>
+</header>
 </body>
 </html>
