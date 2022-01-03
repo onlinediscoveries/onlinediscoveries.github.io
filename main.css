@@ -16,9 +16,14 @@ p {
     background-color: #1a4c6b;
     margin-top: 0;
     margin-bottom: 0;
+    color: #ffffff
 
 }
 button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
     background-color: #1a4c6b;
     margin-top: 0;
     margin-bottom: 0;
@@ -58,6 +63,7 @@ head {
     text-align: center;
     font-family: 'GillSansMT';
     font-size: 60px;
+    color: #ffffff
 }
 .maintext {
     display: block;
@@ -66,6 +72,7 @@ head {
     text-align: center;
     font-family: 'GillSansMT';
     font-size: 25px;
+    color: #ffffff
 } 
 .centerimage {
     display: block;

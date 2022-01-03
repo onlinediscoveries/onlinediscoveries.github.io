@@ -1,18 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-gb">
+<meta name="theme-color" content="#901600">
+<meta name="apple-mobile-web-app-status-bar-style" content="#901600">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Online Discoveries, the best tool for online learning.">
+<link rel="apple-touch-icon" sizes="57x57" href="/Assets/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/Assets/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/Assets/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/Assets/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/Assets/Assets/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/Assets/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/Assets/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/Assets/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/Assets/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/Assets/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/Assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/Assets/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/Assets/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<link rel="stylesheet" href="/main.css">
+<script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register("/sw.js")
+        console.log("Service worker registered")
+    }
+</script>
 <title>Menu - Online Discoveries</title>
 <head>
-<link rel='icon' href='Assets\favicon.ico' type='image/x-icon'/ >
-<h1><font color="#901600"><font face="gill sans mt">Menu</font></h1>
+<link rel='icon' href='Assets\favicon.ico' type='image/x-icon'>
+<header>
+<h1 class="title">Menu</font></h1>
+</header>
 </head>
 <body>
-<p><font color="#1a4c6b"><font face="gill sans mt"><b>Please choose the option you would like.<br></p>
-<a href="index.html"><font color="#1a4c6b"><font face="gill sans mt">Home</font><br></a>
-<a href="about.html"><font color="#1a4c6b"><font face="gill sans mt">About us</font><br></a>
-<a href="teacher\index.html"><font color="#1a4c6b"><font face="gill sans mt">Teachers, go here!</font><br></a>
-<a href="pupil\index.html"><font color="#1a4c6b"><font face="gill sans mt">Pupils, go here!</font><br></a>
-<p><font color="#1a4c6b"><font face="gill sans mt">The serious stuff</font></p>
-<a href="t-o-s\index.html"><font color="#1a4c6b"><font face="gill sans mt">Terms of Service</font><br></a>
-<a href="privacy-policy\index.html"><font color="#1a4c6b"><font face="gill sans mt">Privacy Policy</font></b></a>
+<header>
+<p><font color="#1a4c6b"><b>Please choose the option you would like.<br></p>
+<button><a href="index.html">Home</a></button><br>
+<button><a href="about.html">About us</a></button><br>
+<button><a href="teacher\index.html">Teachers, go here!</a></button><br>
+<button><a href="pupil\index.html">Pupils, go here!</a></button><br>
+<button><p>The serious stuff</a></button><br>
+<button><a href="t-o-s\index.html">Terms of Service</a></button><br>
+<button><a href="privacy-policy\index.html">Privacy Policy</a></button><br>
+</header>
 </body>
 </html>
