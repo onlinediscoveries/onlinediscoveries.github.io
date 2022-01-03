@@ -1,0 +1,87 @@
+@font-face{
+    font-family: 'GillSansMT';
+    src: url(gillsansmt.ttf);
+}
+body {
+    background-color: #901600;
+    margin-bottom: 0;
+}
+h1 {
+    background-color: #1a4c6b;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+p {
+
+    background-color: #1a4c6b;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+button {
+    background-color: #1a4c6b;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'GillSansMT';
+    font-size: 20px;
+    align-self: center;
+}
+
+a {
+    background-color: #1a4c6b;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #ffffff;
+    font-family: 'GillSansMT';
+}
+header {
+    background-color: #1a4c6b;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 100%;
+    width: 100%;
+}
+img {
+    background-color: #1a4c6b;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+head {
+    background-color: #1a4c6b;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'GillSansMT';
+    font-size: 60px;
+}
+.maintext {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'GillSansMT';
+    font-size: 25px;
+} 
+.centerimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 15%;
+    width: 15%
+}
+.copyright {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #901600;
+    font-family: 'GillSansMT';
+    font-size: 20px;
+    color: #ffffff;
+}
