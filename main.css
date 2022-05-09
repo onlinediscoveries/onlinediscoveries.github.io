@@ -7,13 +7,11 @@ body {
     margin-bottom: 0;
 }
 h1 {
-    background-color: #1a4c6b;
     margin-bottom: 0;
     margin-top: 0;
 }
 p {
 
-    background-color: #1a4c6b;
     margin-top: 0;
     margin-bottom: 0;
     color: #ffffff
@@ -24,7 +22,6 @@ button {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background-color: #1a4c6b;
     margin-top: 0;
     margin-bottom: 0;
     font-family: 'GillSansMT';
@@ -34,26 +31,33 @@ button {
 }
 
 a {
-    background-color: #1a4c6b;
     margin-top: 0;
     margin-bottom: 0;
     color: #ffffff;
     font-family: 'GillSansMT';
 }
 header {
+    border-radius: 25px;
     background-color: #1a4c6b;
     margin-top: 0;
     margin-bottom: 0;
     height: 100%;
     width: 100%;
 }
+div {
+    border-radius: 25px;
+    background-image: url("./Assets/blue-gradient.png");
+    background-size: cover;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 100%;
+    width: 100%;
+}
 img {
-    background-color: #1a4c6b;
     margin-top: 0;
     margin-bottom: 0;
 }
 head {
-    background-color: #1a4c6b;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -65,8 +69,10 @@ head {
     font-family: 'GillSansMT';
     font-size: 60px;
     color: #ffffff
+
 }
 .maintext {
+    border-radius: 25px;
     display: block;
     margin-left: auto;
     margin-right: auto;
