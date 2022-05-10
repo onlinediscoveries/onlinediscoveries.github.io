@@ -18,6 +18,9 @@ p {
 
 }
 button {
+    border-radius: 25px;
+    background-image: url("./Assets/blue-gradient.png");
+    background-size: cover;
     display: block;
     background-color: #1a4c6b;
     margin-left: auto;
