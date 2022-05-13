@@ -1,6 +1,7 @@
 @font-face{
     font-family: 'GillSansMT';
     src: url(gillsansmt.ttf);
+    font-display: swap;
 }
 body {
     overflow-x: hidden;
