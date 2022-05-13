@@ -3,25 +3,35 @@
     src: url(gillsansmt.ttf);
 }
 body {
+    overflow-x: hidden;
+    display: block;
+    max-width: 100%;
     background-color: #901600;
     margin-bottom: 0;
 }
 h1 {
+    overflow-x: hidden;
+    display: block;
+    max-width: 100%;
     margin-bottom: 0;
     margin-top: 0;
 }
 p {
-
+    overflow-x: hidden;
+    display: block;
+    max-width: 100%;
     margin-top: 0;
     margin-bottom: 0;
     color: #ffffff
 
 }
 button {
+    overflow-x: hidden;
+    display: block;
+    max-width: 100%;
     border-radius: 5px;
     background-image: url("./Assets/blue-gradient.png");
     background-size: cover;
-    display: block;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -34,12 +44,18 @@ button {
 }
 
 a {
+    overflow-x: hidden;
+    display: block;
+    max-width: 100%;
     margin-top: 0;
     margin-bottom: 0;
     color: #ffffff;
     font-family: 'GillSansMT';
 }
 header {
+    overflow-x: hidden;
+    display: block;
+    max-width: 100%;
     border-radius: 25px;
     background-color: #1a4c6b;
     margin-top: 0;
@@ -48,6 +64,9 @@ header {
     width: 100%;
 }
 div {
+    overflow-x: hidden;
+    display: block;
+    max-width: 100%;
     border-radius: 25px;
     background-image: url("./Assets/blue-gradient.png");
     background-size: cover;
@@ -57,17 +76,23 @@ div {
     width: 100%;
 }
 img {
+    overflow-x: hidden;
     display: block;
     max-width: 100%;
     margin-top: 0;
     margin-bottom: 0;
 }
 head {
+    overflow-x: hidden;
+    display: block;
+    max-width: 100%;
     margin-top: 0;
     margin-bottom: 0;
 }
 .title {
+    overflow-x: hidden;
     display: block;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -77,8 +102,10 @@ head {
 
 }
 .maintext {
-    border-radius: 25px;
+    overflow-x: hidden;
     display: block;
+    max-width: 100%;
+    border-radius: 25px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -87,7 +114,9 @@ head {
     color: #ffffff
 } 
 .centerimage {
+    overflow-x: hidden;
     display: block;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -95,7 +124,9 @@ head {
     width: 15%
 }
 .copyright {
+    overflow-x: hidden;
     display: block;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
